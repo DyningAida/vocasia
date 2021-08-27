@@ -22,5 +22,5 @@
 <label for="tiga">Profesional-Online</label><br>
 <input type="radio" name="size" id="empat">
 <label for="empat">Lainnya</label>
-<a href="<?= base_url('/pengajar/video_content'); ?>" class="mt-4 w3-right btn btn-danger">Lanjut</a>
+<a href="<?= base_url('/onboarding/video_content'); ?>" class="mt-4 w3-right btn btn-danger">Lanjut</a>
 <?= $this->endSection(); ?>

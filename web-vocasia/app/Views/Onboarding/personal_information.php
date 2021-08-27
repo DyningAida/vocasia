@@ -44,7 +44,7 @@
     <label for="nomor_ponsel" class="form-label">Nomor Ponsel</label>
     <input type="text" class="form-control" id="nomor_ponsel" placeholder="+62">
     <br>
-    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <label for="email" class="form-label">Email address</label>
     <input type="email" class="form-control" id="exampleFormControlInput1">
     <br>
     <label for="biografi" class="form-label">Biografi</label>
@@ -79,6 +79,6 @@
     <label for="atas_nama_rekening" class="form-label">Website Pribadi</label>
     <input type="text" class="form-control" id="atas_nama_rekening">
 </div>
-<a href="<?= base_url('/pengajar/participant'); ?>" class="mt-4 w3-left" style="color: gray; font-family: 'Roboto', sans-serif; text-decoration:none">Tahap Sebelumnya</a>
-<a href="<?= base_url('/pengajar/success'); ?>" class="mt-4 w3-right btn btn-danger mb-5">Lanjut</a>
+<a href="<?= base_url('/onboarding/participant'); ?>" class="mt-4 w3-left" style="color: gray; font-family: 'Roboto', sans-serif; text-decoration:none">Tahap Sebelumnya</a>
+<a href="<?= base_url('/onboarding/success'); ?>" class="mt-4 w3-right btn btn-danger mb-5">Lanjut</a>
 <?= $this->endSection(); ?>

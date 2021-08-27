@@ -32,11 +32,11 @@
 
 
 <?= $this->section('form-quest'); ?>
-<input type="radio" name="size" id="satu">
-<label for="satu">Masih Pemula</label><br>
-<input type="radio" name="size" id="dua">
-<label for="dua">Sudah Mahir</label><br>
-<input type="radio" name="size" id="tiga">
-<label for="tiga">Sudah punya video yang siap untuk diupload</label><br>
-<a href="<?= base_url('/pengajar/participant'); ?>" class="mt-4 w3-right btn btn-danger">Lanjut</a>
+<input type="radio" name="pemula" value="pemula" id="pemula">
+<label for="pemula">Masih Pemula</label><br>
+<input type="radio" name="mahir" value="mahir" id="mahir">
+<label for="mahir">Sudah Mahir</label><br>
+<input type="radio" name="sudah_ada" id="sudah_ada" value="sudah_ada">
+<label for="sudah_ada">Sudah punya video yang siap untuk diupload</label><br>
+<a href="<?= base_url('/onboarding/participant'); ?>" class="mt-4 w3-right btn btn-danger">Lanjut</a>
 <?= $this->endSection(); ?>
