@@ -32,13 +32,13 @@
 
 
 <?= $this->section('form-quest'); ?>
-<input type="radio" name="tidak_ada" value="tidak_ada" id="tidak_ada">
+<input type="radio" name="participant" value="tidak_ada" id="tidak_ada">
 <label for="tidak_ada">Tidak punya (0)</label><br>
-<input type="radio" name="sedikit" value="sedikit" id="sedikit">
+<input type="radio" name="participant" value="sedikit" id="sedikit">
 <label for="sedikit">Ada sedikit (1-50)</label><br>
-<input type="radio" name="lumayan" value="lumayan" id="lumayan">
+<input type="radio" name="participant" value="lumayan" id="lumayan">
 <label for="lumayan">Lumayan (51-200)</label><br>
-<input type="radio" name="banyak" value="banyak" id="banyak">
+<input type="radio" name="participant" value="banyak" id="banyak">
 <label for="banyak">Banyak (Lebih dari 200)</label>
 <a href="<?= base_url('/onboarding/personal_information'); ?>" class="mt-4 w3-right btn btn-danger">Lanjut</a>
 <?= $this->endSection(); ?>

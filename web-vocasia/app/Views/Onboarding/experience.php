@@ -14,13 +14,13 @@
 
 
 <?= $this->section('form-quest'); ?>
-<input type="radio" name="size" id="satu">
-<label for="satu">Mengajar informal</label><br>
-<input type="radio" name="size" id="dua">
-<label for="dua">Mengajar formal</label><br>
-<input type="radio" name="size" id="tiga">
-<label for="tiga">Profesional-Online</label><br>
-<input type="radio" name="size" id="empat">
-<label for="empat">Lainnya</label>
+<input type="radio" name="experience" id="informal">
+<label for="informal">Mengajar informal</label><br>
+<input type="radio" name="experience" id="formal">
+<label for="formal">Mengajar formal</label><br>
+<input type="radio" name="experience" id="prof_online">
+<label for="prof_online">Profesional-Online</label><br>
+<input type="radio" name="experience" id="lainnya">
+<label for="lainnya">Lainnya</label>
 <a href="<?= base_url('/onboarding/video_content'); ?>" class="mt-4 w3-right btn btn-danger">Lanjut</a>
 <?= $this->endSection(); ?>
