@@ -1,0 +1,15 @@
+h1{
+	text-align: center;
+	font-weight: 200;
+}
+.atas{
+	background-color: pink;
+	width: 150px;
+}
+.tengah{
+	background-color: blue;
+	width: 800px;
+}
+.belum{
+	margin-top: 15px;
+}
