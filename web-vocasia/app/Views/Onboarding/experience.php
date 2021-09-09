@@ -1,9 +1,9 @@
-<?= $this->extend('layout/template'); ?>
+<?= $this->extend('layout/onboarding/template'); ?>
 
 <?= $this->section('content-left'); ?>
 <h2>Lorem ipsum dolor sit amet consectetur adipisicing</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia commodi sapiente, cumque, impedit incidunt maxime in esse praesentium unde placeat vel quibusdam dolor natus aliquid dolorem suscipit nesciunt illo a blanditiis illum qui! Aut quo assumenda aliquid sint maiores itaque, enim obcaecati ipsum reiciendis totam est tempore culpa porro.</p>
-<img src="/img/icon1.png" alt="" width="402px" height="302px">
+<img src="/img/3d-flame-302.png" alt="" width="402px" height="302px">
 <?= $this->endSection(); ?>
 
 <?= $this->section('quest'); ?>
