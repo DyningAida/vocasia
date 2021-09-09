@@ -1,4 +1,4 @@
-<?= $this->extend('layout/template'); ?>
+<?= $this->extend('layout/onboarding/template'); ?>
 
 <?= $this->section('content-left'); ?>
 <div class="round-number">
@@ -38,5 +38,6 @@
 <label for="mahir">Sudah Mahir</label><br>
 <input type="radio" name="video_content" id="sudah_ada" value="sudah_ada">
 <label for="sudah_ada">Sudah punya video yang siap untuk diupload</label><br>
+<a href="<?= base_url('/onboarding'); ?>" class="mt-4 w3-left" style="color: gray; font-family: 'Roboto', sans-serif; text-decoration:none">Tahap Sebelumnya</a>
 <a href="<?= base_url('/onboarding/participant'); ?>" class="mt-4 w3-right btn btn-danger">Lanjut</a>
 <?= $this->endSection(); ?>

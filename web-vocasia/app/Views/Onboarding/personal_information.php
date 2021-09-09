@@ -1,4 +1,4 @@
-<?= $this->extend('layout/template'); ?>
+<?= $this->extend('layout/onboarding/template'); ?>
 
 <?= $this->section('content-left'); ?>
 <div class="round-number">
@@ -23,7 +23,7 @@
     <div class="round-2" style="color: #cd2228;border: 3px solid #cd2228;">4</div>
     <p style="color: #cd2228;">Informasi Pribadi</p>
 </div>
-<img src="/img/icon1.png" alt="" width="402px" height="302px">
+<img src="/img/3d-flame-287.png" alt="" width="402px" height="302px">
 <?= $this->endSection(); ?>
 
 <?= $this->section('quest'); ?>

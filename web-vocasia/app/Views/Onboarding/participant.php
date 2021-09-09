@@ -1,4 +1,4 @@
-<?= $this->extend('layout/template'); ?>
+<?= $this->extend('layout/onboarding/template'); ?>
 
 <?= $this->section('content-left'); ?>
 <div class="round-number">
@@ -21,7 +21,7 @@
     <div class="round-2">4</div>
     <p>Informasi pribadi</p>
 </div>
-<img src="/img/icon1.png" alt="" width="402px" height="302px">
+<img src="/img/3d-flame-306.png" alt="" width="402px" height="302px">
 <?= $this->endSection(); ?>
 
 <?= $this->section('quest'); ?>
@@ -40,5 +40,6 @@
 <label for="lumayan">Lumayan (51-200)</label><br>
 <input type="radio" name="participant" value="banyak" id="banyak">
 <label for="banyak">Banyak (Lebih dari 200)</label>
+<a href="<?= base_url('/onboarding/video_content'); ?>" class="mt-4 w3-left" style="color: gray; font-family: 'Roboto', sans-serif; text-decoration:none">Tahap Sebelumnya</a>
 <a href="<?= base_url('/onboarding/personal_information'); ?>" class="mt-4 w3-right btn btn-danger">Lanjut</a>
 <?= $this->endSection(); ?>
